@@ -1,0 +1,19 @@
+# GCP credentials - NEVER commit these
+*.json
+!requirements.json
+credentials/
+
+# Data files
+data/raw/*
+!data/raw/.gitkeep
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# OS
+.DS_Store
